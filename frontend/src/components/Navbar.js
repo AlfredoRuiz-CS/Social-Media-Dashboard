@@ -6,12 +6,12 @@ import AlpacaLogo from '../assets/Alpaca_logo.png';
 
 export default function Navbar() {
 
-  return ReactDOM.createPortal( (
+  return (
         <nav className="Parent-Nav">
             <div className="nav-inner">
                 <span className="logo">
-                    <img src = {AlpacaLogo}></img>
-                    <div> <Link to="/">Digital Dash</Link> </div>
+                    <img src = {AlpacaLogo} alt="logo"></img>
+                    <div className="dd"> <Link to="/">Digital Dash</Link> </div>
                 </span>
 
                 
@@ -25,5 +25,5 @@ export default function Navbar() {
             </div>
         </nav>
 
-  ),document.body)
+  )
 }
