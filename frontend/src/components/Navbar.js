@@ -11,16 +11,16 @@ export default function Navbar() {
             <div className="nav-inner">
                 <span className="logo">
                     <img src = {AlpacaLogo}></img>
-                    <div> <Link to="/dash">Digital Dash</Link> </div>
+                    <div> <Link to="/">Digital Dash</Link> </div>
                 </span>
 
                 
 
                 <div className="links">
-                    <Link to="/">Home</Link>
                     <Link to="/dash">Dash</Link>
+                    <Link to="/profile">Profile</Link>
                     <Link to="/about">About</Link>
-                    <Link to="/logout">Logout</Link>
+                    <Link to="/">Logout</Link>
                 </div>
             </div>
         </nav>
