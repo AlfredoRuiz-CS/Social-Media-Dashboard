@@ -1,107 +1,104 @@
-.Title {
-    text-align: center;
-    margin-top: 100px;
-}
+    /* about stuff style */
 
-.heading { 
-    color: black;     
-}
+    .Profile_Picture {
+        width: 150px;
+        height: 150px;
+        margin-top: 5px; 
+        margin-left: 625px; 
+        border-radius: 50%;
+        /* box-shadow: 0 0 10px 5px rgb(255, 255, 255);  */
+    }
 
-.Profile_Picture {
-    width: 150px;
-    height: 150px;
-    margin-top: 5px; 
-    margin-left: 625px; 
-    border-radius: 50%;
-    box-shadow: 0 0 10px 5px rgb(97, 117, 146); 
-}
+    .Name {
+        font-size: 20px;
+        margin-top: 20px; 
+        margin-left: 640px;
+    }
 
-.Name {
-    font-size: 20px;
-    margin-top: 25px; 
-    margin-left: 640px;
-}
+    .Bio { 
+        max-width: 25ch;
+        font-size: 16px;
+        margin-top: 20px; 
+        margin-left: 620px;
+    }
 
-.Bio { 
-    max-width: 25ch;
-    font-size: 16px;
-    margin-top: 20px; 
-    margin-left: 620px;
-}
+    .Interests_title { 
+        margin-top: 30px;
+        margin-bottom: 5px;
+        margin-left: 570px;
+    }
 
-.Interests_title { 
-    margin-top: 30px;
-    margin-bottom: 5px;
-    margin-left: 570px;
-}
+    .Interests { 
+        padding-left: 0;
+        margin-left: 590px;
+    }
 
-.Interests { 
-    padding-left: 0;
-    margin-left: 590px;
-}
+    .Fun_Facts_title { 
+        margin-top: -80px;
+        margin-bottom: 5px;
+        margin-left: 770px;
+    }
 
-.Fun_Facts_title { 
-    margin-top: -80px;
-    margin-bottom: 5px;
-    margin-left: 770px;
-}
-
-.Fun_Facts { 
-    padding-left: 0;
-    margin-left: 790px;
-    padding-bottom: 50px;
-}
+    .Fun_Facts { 
+        padding-left: 0;
+        margin-left: 790px;
+        padding-bottom: 50px;
+    }
 
 
-/* formating template */
-.Member_One {
-    margin-top: 85px;
-    margin-left: -500px;
-}
+    /* formating template */
+    .Member_One {
+        margin-top: 85px;
+        margin-left: -500px;
+    }
+    
+    .Member_One .Profile_Picture img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% -45px;
+        box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
+    }
 
-.Member_One .Profile_Picture img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    object-position: 50% -45px;
-}
+    .Member_Two { 
+        margin-top: -432px;
+        margin-left: -30px; 
+    }     
 
-.Member_Two { 
-    margin-top: -432px;
-    margin-left: -30px; 
-}    
+    .Member_Two .Profile_Picture img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% -50px;
+        box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
+    } 
+  
+    .Member_Three {
+        margin-left: 440px;
+        margin-top: -430px;
+    }
+    
+    .Member_Three .Profile_Picture img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% -35px;   
+        box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
+    }
 
-.Member_Two .Profile_Picture img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    object-position: 50% -50px;
-}
+    .Member_Four { 
+        margin-top: 15px;
+        margin-left: -30px; 
+    }    
 
-.Member_Three {
-    margin-left: 440px;
-    margin-top: -440px;
-}
-
-.Member_Three .Profile_Picture img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    object-position: 50% -35px;   
-}
-
-.Member_Four { 
-    margin-top: 20px;
-    margin-left: -30px; 
-}    
-
-.Member_Four .Profile_Picture img { 
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    object-position: 50% -40px; 
-}
+    .Member_Four .Profile_Picture img { 
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% -40px; 
+        box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
+    }
