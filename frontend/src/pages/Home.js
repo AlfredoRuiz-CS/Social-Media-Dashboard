@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar.js'
 import NavHome from '../components/NavHome.js';
 import AlpacaLogo from '../assets/Alpaca_logo.png';
 import '../components/Home.css';
+import Footer from '../components/Footer.js'
 
 const Home = () => {
     const [text] = useTypewriter({
@@ -31,7 +32,8 @@ const Home = () => {
                         <Cursor/>
                     </span>
                 </h1>
-            </div>   
+            </div>  
+            <Footer /> 
         </div>
     )
 }
