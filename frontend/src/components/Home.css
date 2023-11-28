@@ -5,6 +5,10 @@
     background-color: #000;
     color: white;
   }
+
+  *::-webkit-scrollbar {
+    display: none;
+  }
   
   /* Style for the container that holds the content */
   .home-container {
@@ -55,4 +59,18 @@
 
   .cursor {
     color: white;
+  }
+
+  .site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .content {
+    flex: 1
+ }
+
+  .footer {
+    margin-top: 200px;
   }
