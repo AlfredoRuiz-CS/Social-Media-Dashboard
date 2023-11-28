@@ -1,0 +1,33 @@
+*::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.component {
+    display: flex;
+}
+
+.component h2 {
+    margin-bottom: 10px;
+}
+
+.follow {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.commentsLikes {
+    display: flex;
+    gap: 30px;
+}
+
+.commentsLikes img {
+    width: 25px;
+    height: 25px;
+    object-fit: scale-down;
+}
+
+.likeHeart {
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,106 @@
+.content {
+display: flex;
+/* padding: 20px; */
+justify-content: space-evenly;
+align-items: center;
+margin: 20px 20px;
+border-radius: 50%;
+}
+
+/* Styling for the profile information section */
+.info {
+display: flex;
+flex-direction: column;
+padding-right: 20px;
+font-size: 20px;
+}
+
+.titles {
+display: flex;
+gap: 105px;
+margin-top: 20px;
+padding: 0;
+font-weight: bolder;
+}
+
+.locationyear {
+display: flex;
+gap: 40px;
+margin-top: 5px;
+}
+
+/* Styling for the location and year text */
+.locationyear p {
+margin: 0;
+padding: 0;
+}
+
+.bio {
+margin: 20px 0px;
+}
+
+/* Styling for the bio section */
+.bio p {
+margin: 0;
+padding: 0;
+}
+
+/* Styling for the interests section */
+.interests {
+display: flex;
+align-items: center;
+gap: 20px; /* Adjust the space between icon and text */
+}
+
+.interests img {
+margin-top: 5px;
+}
+
+.interests-info h3 {
+font-weight: bolder;
+}
+
+.interests-info p {
+margin-top: 5px;
+}
+
+/* Styling for the fun facts section */
+.fun-facts { 
+display: flex;
+align-items: center;
+gap: 20px; 
+margin-top: 10px;
+}
+
+.fun-facts img{
+margin-top: 5px;
+}
+
+.fun-facts-info h3 {
+    font-weight: bolder;
+}
+
+.fun-facts-info p {
+margin-top: 5px;
+}
+
+/* Styling for the profile picture */
+.pfp {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.pfp img {
+border-radius: 50%; 
+width: 350px; 
+height: 350px; 
+object-fit: cover; 
+}
+
+/* Styling for the icons */
+img[alt="icon"] {
+object-fit: cover;
+width: 34px; 
+height: 34px; /* Adjust as needed */
+}

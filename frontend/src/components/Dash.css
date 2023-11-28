@@ -1,0 +1,23 @@
+.accounts-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accounts-section h1 {
+    margin-bottom: 10px;
+}
+
+.accounts-list {
+    display: flex;
+    gap: 100px;
+}
+
+.divider {
+    height: 4px; 
+    background-color: white; 
+    width: 80%; 
+    margin-bottom: 20px;
+}
+  
