@@ -19,7 +19,7 @@ const Home = () => {
 
     return (
         <div>
-            <NavHome />
+            <Navbar />
             <div className="home-container">
                 <img src={AlpacaLogo} alt="logo" className="home-logo"/>
                 <h1 className="home-welcome">{text}

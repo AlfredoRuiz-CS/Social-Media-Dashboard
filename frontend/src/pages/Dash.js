@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import DashProfile from '../components/DashProfile';
 import Account from '../components/Account';
+import Footer from '../components/Footer';
 import X from '../assets/x.png';
 import TT from '../assets/tt.png';
 import FB from '../assets/fb.png';
@@ -42,7 +43,8 @@ const Dash = () => {
                         <Account {...TT_SM} />
                     </div>
                 </div>
-            </div>     
+            </div>
+            <Footer />     
         </div>
     )
 };

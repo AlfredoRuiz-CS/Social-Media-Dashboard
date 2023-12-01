@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Member1 from "../assets/Member1.jpeg";
+import GojoIcon from "../assets/gojo.jpeg";
 import "../components/Profile.css";
 
 const Profile = () => {
@@ -7,7 +8,7 @@ const Profile = () => {
         <div>
             <Navbar />
             <div className="profile">
-                <img src={Member1} alt="member1" className="pfp"/>
+                <img src={GojoIcon} alt="member1" className="pfp"/>
             </div>
         </div>
     )

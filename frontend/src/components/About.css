@@ -102,3 +102,29 @@
         object-position: 50% -40px; 
         box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
     }
+
+    .Member_Five { 
+        margin-top: 15px;
+        margin-left: -30px; 
+    }  
+
+    .Member_Five .Profile_Picture img { 
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 50% -40px; 
+        box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
+    }
+
+    .members-top {
+        /* display: flex; */
+    }
+
+    .members-bottom {
+
+    }
+
+    .footer-about {
+        margin-top: -150px;
+    }
