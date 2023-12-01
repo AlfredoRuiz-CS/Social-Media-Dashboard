@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar"
 import { useNavigate } from 'react-router-dom';
 import "../components/Signup.css"
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import Footer from  "../components/Footer"
 
 const Signup = () => {
   const [email, setEmail] = useState('')
@@ -49,6 +50,7 @@ const Signup = () => {
                 <Cursor/>
             </span>
         </h2>
+        <Footer />
     </div>
   )
 }
