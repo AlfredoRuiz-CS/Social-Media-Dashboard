@@ -5,7 +5,7 @@ const Footer = () => {
 return (
     <footer>
         <img src={AlpacaLogo} alt="logo"/>
-        <h2>  | API Alpacas | Code Coogs | Fall 2023</h2>
+        <h3>  | API Alpacas | Code Coogs | Fall 2023</h3>
     </footer>
     )
 };
