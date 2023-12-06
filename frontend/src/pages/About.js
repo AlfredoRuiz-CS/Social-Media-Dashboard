@@ -28,7 +28,7 @@ const Member2 = {
 const Member3 = {
     profileImage: Member3pic,
     name: 'Santiago Ramos',
-    bio: 'My name is Santiago Ramos. I am junior computer science student that enjoys taking on challenges.',
+    bio: 'I am a junior computer science student that enjoys taking on challenges.',
     interests: ['Football', 'Chess', 'Reading'],
     funFacts: ['books over movies', 'I have 2 dogs', 'My bike is yellow'],
 };

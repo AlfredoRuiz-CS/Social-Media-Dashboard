@@ -1,130 +1,110 @@
-    /* about stuff style */
-
-    .Profile_Picture {
-        width: 150px;
-        height: 150px;
-        margin-top: 5px; 
-        margin-left: 625px; 
-        border-radius: 50%;
-        /* box-shadow: 0 0 10px 5px rgb(255, 255, 255);  */
-    }
-
-    .Name {
-        font-size: 20px;
-        margin-top: 20px; 
-        margin-left: 640px;
-    }
-
-    .Bio { 
-        max-width: 25ch;
-        font-size: 16px;
-        margin-top: 20px; 
-        margin-left: 620px;
-    }
-
-    .Interests_title { 
-        margin-top: 30px;
-        margin-bottom: 5px;
-        margin-left: 570px;
-    }
-
-    .Interests { 
-        padding-left: 0;
-        margin-left: 590px;
-    }
-
-    .Fun_Facts_title { 
-        margin-top: -80px;
-        margin-bottom: 5px;
-        margin-left: 770px;
-    }
-
-    .Fun_Facts { 
-        padding-left: 0;
-        margin-left: 790px;
-        padding-bottom: 50px;
-    }
-
-
-    /* formating template */
-    .Member_One {
-        margin-top: 85px;
-        margin-left: -500px;
-    }
-    
-    .Member_One .Profile_Picture img {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 50%;
-        object-position: 50% -45px;
-        box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
-    }
-
-    .Member_Two { 
-        margin-top: -432px;
-        margin-left: -30px; 
-    }     
-
-    .Member_Two .Profile_Picture img {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 50%;
-        object-position: 50% -50px;
-        box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
-    } 
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
   
-    .Member_Three {
-        margin-left: 440px;
-        margin-top: -430px;
-    }
-    
-    .Member_Three .Profile_Picture img {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 50%;
-        object-position: 50% -35px;   
-        box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
-    }
+  .Profile_Picture {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+  }
+  
+  .Profile_Picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+  }
+  
+  .Name {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .Member_One,
+  .Member_Two,
+  .Name {
+    margin-left: 15px;
+  }
+  
+  .Member_Three .Name {
+    margin-left: 5px;
+  }
 
-    .Member_Four { 
-        margin-top: 15px;
-        margin-left: -30px; 
-    }    
+  .Member_Four .Name {
+    margin-left: 2px;
+  }
 
-    .Member_Four .Profile_Picture img { 
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 50%;
-        object-position: 50% -40px; 
-        box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
-    }
+  .Member_Five .Name {
+    margin-left: 30px;
+  }
 
-    .Member_Five { 
-        margin-top: 15px;
-        margin-left: -30px; 
-    }  
+  .Bio {
+    max-width: 27ch;
+    font-size: 16px;
+    margin-top: 20px;
+  }
 
-    .Member_Five .Profile_Picture img { 
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 50%;
-        object-position: 50% -40px; 
-        box-shadow: 0 0 10px 5px rgb(255, 255, 255); 
-    }
+  .Member_One .Interests_title {
+    margin-right: 120px;
+  }
 
-    .members-top {
-        /* display: flex; */
-    }
+  .Member_Two .Interests_title {
+    margin-right: 80px;
+  }
 
-    .members-bottom {
+  .Member_Three .Interests_title {
+    margin-right: 60px;
+  }
 
-    }
+  .Member_Four .Interests_title {
+    margin-right: 140px;
+  }
 
-    .footer-about {
-        margin-top: -150px;
-    }
+  .Member_Five .Interests_title {
+    margin-right: 140px;
+  }
+
+  .Interest_FunFacts_title_Section {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .Interests_title,
+  .Fun_Facts_title {
+    margin-right: 20px;
+    margin-bottom: 5px;
+  }
+
+  .Interest_FunFacts_Section {
+    display: flex;
+    gap: 70px;
+  } 
+
+  .Fun_Facts {
+    padding-bottom: 50px;
+  }
+
+  .members-top {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+  
+  .members-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+  }
+
+  /* Footer Styles */
+  
+  .footer-about {
+    margin-top: -150px;
+  }
+  
