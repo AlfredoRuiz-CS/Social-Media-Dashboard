@@ -7,18 +7,18 @@
 }
 
 .component h2 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .follow {
     display: flex;
     gap: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .commentsLikes {
     display: flex;
-    gap: 30px;
+    gap: 90px;
 }
 
 .commentsLikes img {
