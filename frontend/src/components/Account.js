@@ -6,7 +6,7 @@ import Heart from '../assets/heart_icon.png';
 import '../components/Account.css';
 
 const Account = (props) => {
-    const { socialMedia } = props;
+    const { socialMedia, data } = props;
 
     return (
         <div>
@@ -18,13 +18,13 @@ const Account = (props) => {
                     <h2>@AlfredoR10</h2>
                     <div className="account-items">
                         <div className="follow">
-                            <h3>110 Following</h3>
-                            <h3>150 Followers</h3>
+                            <h3>{data.following} Following</h3>
+                            <h3>{data.followers} Followers</h3>
                         </div>
                         <div className="commentsLikes">
-                            <h3>105 Comments</h3>
+                            <h3>{data.postCount} Posts</h3>
                             <div className="likeHeart">
-                                <h3>180 Likes</h3>
+                                <h3>{data.likes} Likes</h3>
                                 <img src={Heart} alt="heart"/>
                             </div>
                         </div>
