@@ -16,7 +16,13 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://social-media-dashboard-client.vercel.app"],
+        methods: ['GET', 'POST'],
+        credentials: true
+    }
+));
 
 // routes 
 app.use('/api/user', userRoutes);
