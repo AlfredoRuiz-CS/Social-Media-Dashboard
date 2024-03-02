@@ -4,6 +4,7 @@
     box-sizing: border-box; 
     background-color: #000;
     color: white;
+    min-height: 100vh;
   }
 
   *::-webkit-scrollbar {

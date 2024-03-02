@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Navbar from '../components/Navbar.js'
-import NavHome from '../components/NavHome.js';
 import AlpacaLogo from '../assets/Alpaca_logo.png';
 import '../components/Home.css';
 import Footer from '../components/Footer.js'
@@ -18,7 +17,7 @@ const Home = () => {
     });
 
     return (
-        <div>
+        <div className="site">
             <Navbar />
             <div className="home-container">
                 <img src={AlpacaLogo} alt="logo" className="home-logo"/>
