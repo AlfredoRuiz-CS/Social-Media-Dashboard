@@ -1,4 +1,4 @@
-require('dotenv').config();
+// require('dotenv').config();
 
 const cors = require('cors');
 const express = require('express');
@@ -26,10 +26,11 @@ app.get('/', (req, res) => {
     res.status(200).json({ message: 'Server is running' });
 });
 
-const PORT = process.env.PORT || 4000;
+
 // connection to db
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
+        const PORT = process.env.PORT || 4000;
         app.listen(PORT, () =>{
             console.log("listening on port ", PORT);
         })
