@@ -11,13 +11,7 @@ const app = express();
 // middleware
 app.use(express.json());
 
-app.use(cors(
-    {
-        origin: ["https://social-media-dashboard-client.vercel.app"],
-        methods: ['GET', 'POST'],
-        credentials: true
-    }
-));
+app.use(cors());
 
 app.use((req, res, next) => {
     console.log(req.path, req.method);
