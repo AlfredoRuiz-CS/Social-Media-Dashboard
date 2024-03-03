@@ -32,11 +32,12 @@ app.get('/', (req, res) => {
     res.status(200).json({ message: 'Server is running' });
 });
 
+const PORT = process.env.PORT || 4000;
 // connection to db
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
-        app.listen(process.env.PORT, () =>{
-            console.log("listening on port ", process.env.PORT);
+        app.listen(PORT, () =>{
+            console.log("listening on port ", PORT);
         })
     })
     .catch((error) => {
