@@ -1,10 +1,5 @@
 {
     "version": 2,
-    "rewrites": [
-        {
-        "source": "/(.*)", "Destination": "/"
-        }
-    ],
     "builds": [
         {
             "src": "*.js",
