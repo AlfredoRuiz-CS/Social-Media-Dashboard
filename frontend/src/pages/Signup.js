@@ -1,23 +1,31 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useSignup } from "../hooks/useSignup"
 import Navbar from "../components/Navbar"
 import { useNavigate } from 'react-router-dom';
 import "../components/Signup.css"
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Footer from  "../components/Footer"
+import { useAuthContext } from '../hooks/useAuthContext.js';
 
 const Signup = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const {signup, error, isLoading} = useSignup()
   const navigate = useNavigate();
+  const { user } = useAuthContext();
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    navigate('/dash');
+    
     await signup(email, password)
   }
   
+  useEffect(() => {
+    if (user) {
+        navigate('/dash');
+    }
+  }, [user, navigate]);
+
   const [message] = useTypewriter({
     words: ['The Perfect Dashboard for Everything You!'],
     loop: true
