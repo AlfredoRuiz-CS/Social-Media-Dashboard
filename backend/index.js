@@ -9,8 +9,6 @@ const userRoutes = require('./routes/users');
 const app = express();
 
 // middleware
-app.use(express.json());
-
 const corsOptions = {
     origin: 'https://social-media-dashboard-client.vercel.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
@@ -18,7 +16,8 @@ const corsOptions = {
   };
 app.use(cors(corsOptions));
 
-app.options('*', cors(corsOptions));
+app.use(express.json());
+
 
 app.use((req, res, next) => {
     console.log(req.path, req.method);
