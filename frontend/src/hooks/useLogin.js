@@ -12,6 +12,7 @@ export const useLogin = () => {
 
     const response = await fetch('https://social-media-dashboard-five-livid.vercel.app/api/user/login', {
       method: 'POST',
+      mode: 'cors',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({ email, password }),
     })
