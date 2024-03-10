@@ -10,7 +10,7 @@ const app = express();
 
 // middleware
 const corsOptions = {
-    origin: 'https://social-media-dashboard-client.vercel.app/',
+    origin: 'https://social-media-dashboard-client.vercel.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     optionsSuccessStatus: 204
   };
